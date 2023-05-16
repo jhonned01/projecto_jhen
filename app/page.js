@@ -22,14 +22,10 @@ export default function HomePage() {
   if (isLoading) return <p>Loading...</p>;
 
   return (
-    <div className="bg-gray-100">
-      <Header />
+    <main className="max-w-screen-2xl mx-auto">
+      <Banner />
 
-      <main className="max-w-screen-2xl mx-auto">
-        <Banner />
-
-        {data && <ProducFeed products={data} />}
-      </main>
-    </div>
+      {data && <ProducFeed products={data} />}
+    </main>
   );
 }
