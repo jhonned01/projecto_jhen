@@ -19,10 +19,10 @@ const Header = () => {
             </Link>
             {/* Nav Links */}
             <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
-              <li>
-                <a className="hover:text-gray-200" href="#">
+              <li className="hover:scale-105">
+                <Link className="hover:text-gray-200" href="/">
                   Inicio
-                </a>
+                </Link>
               </li>
               <li>
                 <Link className="hover:text-gray-200" href="/Buy">
