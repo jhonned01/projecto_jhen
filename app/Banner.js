@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -16,17 +17,22 @@ const Banner = () => {
       >
         <div>
           <img
-            loading="lazy"
-            src="/banner1.jpeg"
-            alt=""
-            className="object-cover w-full max-h-[700px]"
+            src="/Banner5.jpg"
+            className="object-cover w-full max-h-[500px]"
           />
         </div>
         <div>
-          <img loading="lazy" alt="" src="/banner2.png" />
+          <img
+            src="/banner2.png"
+            className="object-cover w-full max-h-[500px]"
+            S
+          />
         </div>
         <div>
-          <img loading="lazy" src="/banner3.jpg" alt="" />
+          <img
+            src="/Banner6.jpg"
+            className="object-cover w-full max-h-[500px]"
+          />
         </div>
       </Carousel>
     </div>
