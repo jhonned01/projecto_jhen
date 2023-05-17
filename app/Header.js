@@ -10,9 +10,9 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <section className=" mx-auto">
+      <section className=" mx-auto overflow-hidden">
         {/* navbar */}
-        <nav className="flex justify-between bg-[#000000] text-white w-screen">
+        <nav className="flex justify-between bg-[#000000] text-white w-screen ">
           <div className="px-5 xl:px-12 py-6 flex w-full items-center">
             <Link href="/" className="text-3xl font-bold font-heading">
               <img className="h-9" src="/logo2.jpeg" alt="logo" />
@@ -35,18 +35,13 @@ const Header = () => {
                 </Link>
               </li>
               <li>
-                <a
-                  className="hover:text-gray-200"
-                  href="https://www.mundoasesorald.com/?marca=RealHuman#!/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Quiero Verder{" "}
-                </a>
+                <Link className="hover:text-gray-200" href="/Ilustraciones">
+                  Ilustraciones{" "}
+                </Link>
               </li>
             </ul>
             {/* Header Icons */}
-            <div className="hidden xl:flex items-center space-x-5 items-center">
+            <div className="hidden xl:flex items-center space-x-5 ">
               <a className="hover:text-gray-200" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

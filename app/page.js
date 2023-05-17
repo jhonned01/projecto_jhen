@@ -1,6 +1,5 @@
 "use client";
-
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProducFeed from "./ProducFeed";
 import Banner from "./Banner";
 import Header from "./Header";
