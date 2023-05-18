@@ -12,7 +12,7 @@ const Footer = () => {
               target="_blank"
             >
               {" "}
-              100 años del
+              100 años del{" "}
             </a>
             <a
               href="https://www.creative-tim.com?ref=njs-profile"

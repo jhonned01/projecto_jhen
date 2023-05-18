@@ -64,9 +64,14 @@ const Product = ({ id, title, price, description, category, image }) => {
           <p className="text-xs text-gray-500">FREE Next-day Delivery</p>
         </div>
       )}
-      <button onClick={addItemToBasket} className="mt-auto button">
-        Comprar
-      </button>
+
+      <a
+        href="https://www.likeme.com.co/marcas/real-human.html"
+        className="mt-auto button"
+        target="_blank"
+      >
+        Más Información
+      </a>
     </div>
   );
 };
