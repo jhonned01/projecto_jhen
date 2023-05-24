@@ -18,20 +18,12 @@ const ProducFeed = ({ products }) => {
           />
         ))}
       <img className="md:col-span-full " src="/mid.jpeg" alt="" />
-      <div className="md:col-span-2">
-        {products
-          .slice(4, 5)
-          .map(({ id, title, price, description, category, image }) => (
-            <Product
-              key={id}
-              id={id}
-              title={title}
-              price={price}
-              description={description}
-              category={category}
-              image={image}
-            />
-          ))}
+      <div className="md:col-span-2 p-10">
+        <img
+          src="/Banner11.jpeg"
+          alt="banner"
+          className="w-full h-[500px] object-contain"
+        />
       </div>
       {products
         .slice(5, products.length)

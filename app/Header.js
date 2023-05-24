@@ -26,7 +26,7 @@ const Header = () => {
               </li>
               <li className=" hover:bg-yellow-900 rounded-3xl p-4 cursor-pointer">
                 <Link className="hover:text-gray-200" href="/Buy">
-                  Quero comprar
+                  Quiero comprar
                 </Link>
               </li>
               <li className=" hover:bg-yellow-900 rounded-3xl p-4 cursor-pointer">

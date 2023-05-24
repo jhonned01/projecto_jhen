@@ -9,7 +9,7 @@ export default function HomePage() {
     {
       id: 1,
       title: "Buzo Manga Larga ",
-      price: 55.9,
+      price: 55000,
       description: "Buzo streewear de algodon,con un diseño diferente ",
       category: "men's clothing",
       image: "/img1.jpeg",
@@ -21,7 +21,7 @@ export default function HomePage() {
     {
       id: 2,
       title: "Pantalon de Bota Tubo,Marfil ",
-      price: 75.9,
+      price: 75000,
       description: "Pantalon de color solido,con mucho estilo",
       image: "/img2.jpeg",
 
@@ -33,7 +33,7 @@ export default function HomePage() {
     {
       id: 3,
       title: "Camiseta Manga Corta-Negra",
-      price: 29.9,
+      price: 29000,
       description: "Camisa Basica negra overzise",
       category: "men's clothing",
       image: "/img3.jpeg",
@@ -45,7 +45,7 @@ export default function HomePage() {
     {
       id: 4,
       title: "Camiseta Manga Corta Negro",
-      price: 33.9,
+      price: 33000,
       description: "Diseño En Estampado Con Estilo Animado  ",
       category: "men's clothing",
       image: "/img4.jpeg",
@@ -57,10 +57,10 @@ export default function HomePage() {
     {
       id: 5,
       title: "Bermuda Tiro Medio Multicolor",
-      price: 35.0,
+      price: 35000,
       description: "Bermuda Comoda Multicolor",
       category: "men's clothing",
-      image: "/img5.jpeg",
+      image: "/Banner1.jpeg",
       rating: {
         rate: 4.6,
         count: 400,
@@ -69,7 +69,7 @@ export default function HomePage() {
     {
       id: 6,
       title: "Camiseta Manga Corta Blanco ",
-      price: 35.9,
+      price: 35000,
       description: "Casimeta Con Diseño Colorido y Estampado de Letras",
       category: "",
       image: "/img6.jpeg",
@@ -81,7 +81,7 @@ export default function HomePage() {
     {
       id: 7,
       title: "Camiseta Manga Corta",
-      price: 27.9,
+      price: 27000,
       description: "camiseta manga corta unisex multicolor",
       category: "",
       image: "/img7.jpeg",
@@ -93,7 +93,7 @@ export default function HomePage() {
     {
       id: 8,
       title: "Buzo",
-      price: 50.9,
+      price: 50000,
       description: "Buzo Manga larga con Patron de Manchas de Puma ",
       category: "",
       image: "/img8.jpeg",
@@ -105,7 +105,7 @@ export default function HomePage() {
     {
       id: 9,
       title: "buzo Manga Lagar Negro",
-      price: 45.0,
+      price: 45000,
       description: "buzo manfa larga negro con estampado sencillo ",
       category: "",
       image: "/img9.jpeg",
@@ -117,7 +117,7 @@ export default function HomePage() {
     {
       id: 10,
       title: "Vestido de Baño Entero",
-      price: 37.5,
+      price: 37000,
       description: "Vestido de Baño Entero Con Tonos Pasteles y Palmeras",
       category: "",
       image: "/img10.jpeg",
@@ -129,7 +129,7 @@ export default function HomePage() {
     {
       id: 11,
       title: "Camiseta Manga Corta Negra",
-      price: 70.0,
+      price: 70000,
       description: "Camiseta Basica negro Manga Corta ",
       category: "",
       image: "/img11.jpeg",
@@ -141,7 +141,7 @@ export default function HomePage() {
     {
       id: 12,
       title: "Camiseta Manga Corta Marfil",
-      price: 23.0,
+      price: 23000,
       description: "Camiseta Manga Corta Marfil  Basica Con Estampado Pequeño",
       category: "",
       image: "/img12.jpeg",
@@ -153,7 +153,7 @@ export default function HomePage() {
     {
       id: 13,
       title: "Buzo manga larga multicolor",
-      price: 45,
+      price: 45000,
       description: "Buzo Manga Larga Multicolor Con Tela Suave",
       category: "",
       image: "/img13.jpeg",
@@ -165,7 +165,7 @@ export default function HomePage() {
     {
       id: 14,
       title: "Buzo manga larga multicolor ",
-      price: 47.9,
+      price: 47000,
       description: "Buzo Manga Larga Multicolor Con Tela Suave,Con Patron",
       category: "",
       image: "/img14.jpeg",
@@ -177,7 +177,7 @@ export default function HomePage() {
     {
       id: 15,
       title: "Buzo Manga Larga Multicolor ",
-      price: 35.9,
+      price: 35000,
       description:
         "Buzo Manga Larga Multicolor Con Tela Suave,Con cuadros de color",
       category: "",
